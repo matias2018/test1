@@ -10,13 +10,3 @@
   height: auto;
   outline: 3px solid #faa500;
 }
-
-.swiper-container {
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  list-style: none;
-  padding: 0;
-  z-index: 1;
-  cursor: grab;
-}
