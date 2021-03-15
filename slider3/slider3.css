@@ -53,8 +53,8 @@ img {
 
 .text{
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 35%;
+  left: 35%;
   height: 150px;
   display: flex;
   flex-direction: column;
