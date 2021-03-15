@@ -1,4 +1,22 @@
+.imgSlider-Wrapper {
+  
+    position: relative;
+    padding-top: calc(70px + 30 * ((100vw - 320px) / 1600));
+
+}
+
 .swiper-container {
-  width: 50%;
+  width: 100%;
   height: auto;
+  outline: 3px solid #faa500;
+}
+
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  cursor: grab;
 }
