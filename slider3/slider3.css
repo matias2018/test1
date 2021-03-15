@@ -50,10 +50,10 @@ img {
   position: absolute;
   top: 25%;
   left: 25%;
-  margin-bottom: 500px;
+  height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -66,6 +66,7 @@ img {
 
 .ptitle {
   color: #ff8004;
+  margin-bottom: -50px;
 }
 
 
