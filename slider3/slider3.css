@@ -42,7 +42,12 @@
   top: -10px;
 }
 
+.swiper-slide{
+  outline: 3px solid red;
+}
+
 img {
+  width: 100%;
   filter: brightness(0.4);
 }
 
