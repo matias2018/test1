@@ -11,8 +11,11 @@ img {
   position: absolute;
   top: 25%;
   left: 25%;
-  outline: 1px solid red;
   margin-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text * {
@@ -28,13 +31,17 @@ img {
 
 
 .swiper-container-horizontal>.swiper-scrollbar {
-  width: 764px;
+    width: 764px;
     position: relative;
     left: initial;
     bottom: initial;
     margin: 0 auto;
     margin-top: 180px;
     background: rgb(200, 200, 200);
+}
+
+.swiper-scrollbar-drag {
+  background: #ff8004;
 }
 
 .swiper-scrollbar::before, .swiper-scrollbar::after{
