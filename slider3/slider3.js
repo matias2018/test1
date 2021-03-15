@@ -23,4 +23,5 @@ const swiper = new Swiper('.swiper-container', {
   centeredSlides: true,
   centeredSlidesBounds: true,
   slidesPerView: 2,
+  height: 1500,
 });

@@ -1,12 +1,63 @@
-.imgSlider-Wrapper {
-  
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&family=Cairo:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&display=swap");
+
+
+
+img {
+  filter: brightness(0.4);
+}
+
+.text{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  outline: 1px solid red;
+  margin-bottom: 500px;
+}
+
+.text * {
+  font-family: Cairo;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ptitle {
+  color: #ff8004;
+}
+
+
+.swiper-container-horizontal>.swiper-scrollbar {
+  width: 764px;
     position: relative;
-    padding-top: calc(70px + 30 * ((100vw - 320px) / 1600));
-
+    left: initial;
+    bottom: initial;
+    margin: 0 auto;
+    margin-top: 180px;
+    background: rgb(200, 200, 200);
 }
 
-.swiper-container {
-  width: 100%;
-  height: auto;
-  outline: 3px solid #faa500;
+.swiper-scrollbar::before, .swiper-scrollbar::after{
+  font-family: Barlow;
+  font-size: 22px;
+  color: #c4c4c4;
 }
+
+.swiper-scrollbar::before {
+  content: "1";
+  position: absolute;
+  left: -7%;
+  top: 17%;
+  z-index:inherit;
+}
+
+.swiper-scrollbar::after {
+  content: "4";
+  position: absolute;
+  right: -10%;
+  top: 17%;
+}
+
+
+
+
