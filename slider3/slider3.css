@@ -29,6 +29,9 @@ img {
   color: #ff8004;
 }
 
+.swiper-container{
+  cursor: pointer;
+}
 
 .swiper-container-horizontal>.swiper-scrollbar {
     width: 764px;
