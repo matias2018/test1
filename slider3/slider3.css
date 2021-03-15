@@ -7,11 +7,11 @@
 }
 
 .swiper-container-horizontal>.swiper-scrollbar {
-    width: 764px;
+    width: calc(764px / 2);
     position: relative;
     left: initial;
     bottom: initial;
-    margin: 0 auto;
+    margin: 0 0 0 50%;
     margin-top: 180px;
     margin-bottom: 80px;
     background: rgb(200, 200, 200);
